@@ -9,8 +9,6 @@
 #include <sys/mman.h>
 #include <unistd.h>
 
-// test the program by running LD_PRELOAD=./myallocator.so test/malloc-test
-
 // The minimum size returned by malloc
 #define MIN_MALLOC_SIZE 16
 
